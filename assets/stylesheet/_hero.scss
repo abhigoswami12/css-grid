@@ -1,6 +1,6 @@
 .hero-content {
+    background: #F5E3D7;//n
     padding: 7rem 2rem;
-    background: #F5E3D7;
     h3 {
         color: rgb(165, 161, 158);
         text-transform: uppercase;
@@ -29,6 +29,12 @@
             cursor: pointer;
             color: rgb(245, 132, 132);
         }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero-content {
+    padding: 4rem 2rem;
     }
 }
 

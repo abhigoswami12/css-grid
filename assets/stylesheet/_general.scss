@@ -4,6 +4,7 @@
 
 html {
     font-size: 16px;
+    // letter-spacing: 0.0375rem;
 }
 
 
@@ -85,7 +86,8 @@ strong {
 
 @media screen and (max-width:768px) {
     html {
-        font-size: 12px;
+        font-size: 14px;
+        
     }
     .container {
     display: grid;

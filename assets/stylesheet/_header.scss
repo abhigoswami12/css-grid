@@ -1,0 +1,122 @@
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header {
+    background: transparent;
+    padding: 1.5rem;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.logo {
+    a {
+        // text-transform: uppercase;
+        font-weight: 800;
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: black;
+        &:hover {
+            color: $bg-yellow;
+        }
+    }
+}
+.header-wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.nav-menu-item{
+    a{
+        display: inline-block;
+        margin-left: 2rem;
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        &:hover {
+            color: $bg-yellow;
+            cursor: pointer;
+            // text-decoration: underline;
+            // border-bottom: 1px solid $bg-yellow;
+        }
+    }
+    .active {
+        color: $bg-yellow;
+    }
+}
+.bars,#toggle {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .nav-menu {
+        display: none;
+        position: fixed;
+        // text-align: left;
+        padding-top: 4rem;
+        background: rgba(100, 189, 100, 1);
+        top: 0;
+        left: 40%;
+        right: 0;
+        bottom: 20%;
+        border-bottom-left-radius: 6px;
+        border-top-left-radius: 6px;
+        a{
+            display: inline-block;
+            margin: 1rem 0;
+            margin-left: 1rem;
+            font-size: 1.5rem;
+            color: rgb(29, 28, 28);
+            &:hover {
+                color: $bg-yellow;
+            }
+        }
+        .active {
+            color: rgb(29, 28, 28);
+            &:hover {
+                color: $bg-yellow;
+            }
+        }
+    }
+    .header {
+        position: relative;
+        background: white;
+        padding: 1rem 1.5rem;
+    }
+    .logo {
+        a{
+            font-size: 1.5rem;
+            // position: relative;
+            // z-index: 999;
+        }
+    }
+    // nav-menu items and bar
+    .bars {
+        font-size: 1.5rem;
+        display: inline-block;
+        // position: relative;
+        // z-index: 999;
+    }
+    #toggle:checked~ .nav-menu {
+        display: inline-block;
+    }
+    // .close-menu {
+    //     position: absolute;
+    // }
+    .flex-ul {
+        display: flex;
+        flex-direction:column;
+        // justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+    .close-menu {
+        position: absolute;
+        right: 0;
+        left: 83%;
+        top: 3%;
+    }
+}

@@ -39,7 +39,7 @@ input, textarea {
         color: rgba($color: #000, $alpha: 0.8);
         border: 0;
         padding: 0.6rem 6rem;
-        margin: 0 1rem;//n
+        margin: 0 1rem;
         border-radius: 32px;
         margin-top: 1.5rem;
         cursor: pointer;
@@ -72,19 +72,22 @@ input, textarea {
 //     margin-right: 5rem;
 // }
 .map {
-    // width: 100%;
-    // height: 100%;
-    width:62.5rem;
-    height:25rem;
-    margin: 2rem auto;
+    width: 100%;
+    height: 300px;
+    // width:62.5rem;
+    // height:25rem;
+    // margin: 2rem auto;
+    // display: grid;
+    // grid-column: 1/4;
+
 }
 
 @media screen and (max-width:768px) {
-    .map {
-        width: 100%;
-        height: 100%;
-        margin: 1.5rem;
-    }
+    // .map {
+    //     width: 100%;
+    //     height: 100%;
+    //     margin: 1.5rem;
+    // }
     .form {
     button {
         margin: 1.5rem 2rem 0 2rem;
