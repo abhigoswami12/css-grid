@@ -1,36 +1,31 @@
 .edu-content {
-    background: $bg-yellow;
-    .heading {
-        color: white;
-    }
-    
+  background: $bg-yellow;
+  .heading {
+    color: white;
+  }
 }
 .edu-item1 {
-    padding: 1rem 0 2rem 0;
+  padding: 1rem 0 2rem 0;
 }
 .edu-items {
-    i {
-        font-size: 2rem;
-        color: white;
-        // font-weight: $fontWeight;
-        margin-right: 1rem;
+  i {
+    font-size: 2rem;
+    color: white;
+    margin-right: 1rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+    font-weight: $fontWeight;
+    color: white;
+    margin-top: -0.4rem;
+    strong {
+      font-weight: 700;
+      font-size: 0.94rem;
+      color: #907318;
     }
-    h3 {
-        font-size: 1.4rem;
-        font-weight: $fontWeight;
-        color: white;
-        margin-top: -0.4rem;
-        strong {
-           font-weight: 700;
-           font-size: 0.94rem;
-           color: #907318; 
-        }
-    }
-    p {
-        line-height: 2;
-        color: white;
-    }
+  }
+  p {
+    line-height: 2;
+    color: white;
+  }
 }
-// .imge {
-//     font-size: 0;
-// }

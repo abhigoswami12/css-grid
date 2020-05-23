@@ -1,13 +1,13 @@
 .map-sec {
-    background: $bg-orange;
+  background: $bg-orange;
 }
 .map {
-    margin: 1.5rem 0;
-    padding: 0 8rem;
+  margin: 1.5rem 0;
+  padding: 0 8rem;
 }
 
-@media screen and (max-width:768px) {
-    .map{
-        padding: 0;
-    }
+@media screen and (max-width: 768px) {
+  .map {
+    padding: 0;
+  }
 }

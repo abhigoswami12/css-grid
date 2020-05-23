@@ -1,93 +1,87 @@
 .contact {
-    background: $bg-orange;
+  background: $bg-orange;
 }
 
 .inp-email {
-    display: block;
+  display: block;
 }
-input, textarea {
-    width: 100%;
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid $bg-yellow;
-    outline: 0;
-    padding: 2.5rem 0 0.5rem 1rem;
-    font-weight: 400;
-    &::placeholder {
-        color: rgba($color: #fff, $alpha: 0.7);
-        font-weight: 200;
-    }
-}
+input,
 textarea {
-    &::placeholder {
-        color: rgba($color: #fff, $alpha: 0.7);
-        font-weight: 200;
-    }
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid $bg-yellow;
+  outline: 0;
+  padding: 2.5rem 0 0.5rem 1rem;
+  font-weight: 400;
+  &::placeholder {
+    color: rgba($color: #fff, $alpha: 0.7);
+    font-weight: 200;
+  }
 }
 .contact {
-    .heading {
-        color: white;
-    }
-    .sub-heading {
-        color: rgba($color: #fff, $alpha: 0.8);
-    }
+  .heading {
+    color: white;
+  }
+  .sub-heading {
+    color: rgba($color: #fff, $alpha: 0.8);
+  }
 }
 .contact-col3 {
-    background: black;
+  background: black;
 }
 .contact-img {
-    font-size: 0;
+  font-size: 0;
 }
 .form {
-    button {
-        font-size: 1rem;
-        font-weight: $fontWeight;
-        background: white;
-        color: rgba($color: #000, $alpha: 0.8);
-        border: 0;
-        padding: 0.6rem 6rem;
-        margin: 0 1rem;
-        border-radius: 32px;
-        margin-top: 1.5rem;
-        cursor: pointer;
-        &:hover {
-            background: rgba($bg-yellow, 1);
-            color: white;
-        }
+  button {
+    font-size: 1rem;
+    font-weight: $fontWeight;
+    background: white;
+    color: rgba($color: #000, $alpha: 0.8);
+    border: 0;
+    padding: 0.7rem 6rem;
+    margin: 0 1rem;
+    border-radius: 32px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    &:hover {
+      background: rgba($bg-yellow, 1);
+      color: white;
     }
+  }
 }
 .contact-detail {
-    i{
-        color: rgb(255, 255, 255,0.6);
-        margin-right: 1rem;
-    }
-    a {
-        text-decoration: none;
-        color: $bg-yellow;
-        margin-top: -0.3rem;
-    }
-    .flex {
-        padding-top: 1rem;
-    }
+  i {
+    color: rgb(255, 255, 255, 0.6);
+    margin-right: 1rem;
+  }
+  a {
+    text-decoration: none;
+    color: $bg-yellow;
+    margin-top: -0.3rem;
+  }
+  .flex {
+    padding-top: 1rem;
+  }
 }
 .phone {
-    a{
-        color:  rgb(255, 255, 255,0.4);
-    }
+  a {
+    color: rgb(255, 255, 255, 0.4);
+  }
 }
 
-@media screen and (max-width:768px) {
-    .form {
-        button {
-            margin: 1.5rem 2rem 0 2rem;
-        }
+@media screen and (max-width: 768px) {
+  .form {
+    button {
+      margin: 1.5rem 2rem 0 2rem;
     }
-    .contact-col3 {
-        padding-bottom: 17rem;
-    }
-    .col-span {
-        display: grid;//n
-        grid-column: 1/-1!important;//n
-    }
-
+  }
+  .contact-col3 {
+    padding-bottom: 17rem;
+  }
+  .col-span {
+    display: grid;
+    grid-column: 1/-1 !important;
+  }
 }
