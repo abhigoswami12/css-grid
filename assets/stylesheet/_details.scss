@@ -1,0 +1,46 @@
+.details {
+    text-align: center;
+    p {
+        line-height: 1.8;
+        padding-bottom: 2rem;
+    }
+    i {
+        margin: 2rem 0;
+        font-size: 3rem;
+        // color: white;
+    }
+    
+}
+.details-heading {
+    font-size: 1.5rem;
+    font-weight: $fontWeight;
+    color: white;
+    padding-bottom: 0.8rem;
+}
+.interface {
+    background: $bg-yellow;
+    i {
+        color: white;
+    }
+}
+.media {
+    background: $bg-orange;
+    i {
+        // font-size: 3rem;
+        color: white;
+    }
+}
+.mobile {
+    background: black;
+    p {
+        color: white;
+    }
+    i {
+        color: white;
+    }
+}
+.coding {
+    h3 {
+    color: black;
+    }
+}

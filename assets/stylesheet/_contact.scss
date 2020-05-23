@@ -1,0 +1,101 @@
+.contact {
+    background: $bg-orange;
+}
+
+.inp-email {
+    display: block;
+}
+input, textarea {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid $bg-yellow;
+    outline: 0;
+    padding: 2.5rem 0 0.5rem 1rem;
+    &::placeholder {
+        color: rgba($color: #fff, $alpha: 0.7);
+        font-weight: 200;
+    }
+}
+.contact {
+    .heading {
+        color: white;
+    }
+    .sub-heading {
+        color: rgba($color: #fff, $alpha: 0.8);
+    }
+}
+.contact-col3 {
+    background: black;
+}
+.contact-img {
+    font-size: 0;
+}
+.form {
+    button {
+        font-size: 1rem;
+        font-weight: $fontWeight;
+        background: white;
+        color: rgba($color: #000, $alpha: 0.8);
+        border: 0;
+        padding: 0.6rem 6rem;
+        margin: 0 1rem;//n
+        border-radius: 32px;
+        margin-top: 1.5rem;
+        cursor: pointer;
+        &:hover {
+            background: rgba($bg-yellow, 1);
+            color: white;
+        }
+    }
+}
+.contact-detail {
+    i{
+        color: rgb(255, 255, 255,0.6);
+        margin-right: 1rem;
+    }
+    a {
+        text-decoration: none;
+        color: $bg-yellow;
+        margin-top: -0.3rem;
+    }
+    .flex {
+        padding-top: 1rem;
+    }
+}
+.phone {
+    a{
+        color:  rgb(255, 255, 255,0.4);
+    }
+}
+// .btn {
+//     margin-right: 5rem;
+// }
+.map {
+    // width: 100%;
+    // height: 100%;
+    width:62.5rem;
+    height:25rem;
+    margin: 2rem auto;
+}
+
+@media screen and (max-width:768px) {
+    .map {
+        width: 100%;
+        height: 100%;
+        margin: 1.5rem;
+    }
+    .form {
+    button {
+        margin: 1.5rem 2rem 0 2rem;
+    }
+}
+.contact-col3 {
+    padding-bottom: 17rem;
+}
+.col-span {
+    display: grid;//n
+    grid-column: 1/-1!important;//n
+}
+
+}
