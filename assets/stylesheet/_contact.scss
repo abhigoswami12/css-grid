@@ -12,6 +12,13 @@ input, textarea {
     border-bottom: 1px solid $bg-yellow;
     outline: 0;
     padding: 2.5rem 0 0.5rem 1rem;
+    font-weight: 400;
+    &::placeholder {
+        color: rgba($color: #fff, $alpha: 0.7);
+        font-weight: 200;
+    }
+}
+textarea {
     &::placeholder {
         color: rgba($color: #fff, $alpha: 0.7);
         font-weight: 200;
@@ -68,37 +75,19 @@ input, textarea {
         color:  rgb(255, 255, 255,0.4);
     }
 }
-// .btn {
-//     margin-right: 5rem;
-// }
-.map {
-    width: 100%;
-    height: 300px;
-    // width:62.5rem;
-    // height:25rem;
-    // margin: 2rem auto;
-    // display: grid;
-    // grid-column: 1/4;
-
-}
 
 @media screen and (max-width:768px) {
-    // .map {
-    //     width: 100%;
-    //     height: 100%;
-    //     margin: 1.5rem;
-    // }
     .form {
-    button {
-        margin: 1.5rem 2rem 0 2rem;
+        button {
+            margin: 1.5rem 2rem 0 2rem;
+        }
     }
-}
-.contact-col3 {
-    padding-bottom: 17rem;
-}
-.col-span {
-    display: grid;//n
-    grid-column: 1/-1!important;//n
-}
+    .contact-col3 {
+        padding-bottom: 17rem;
+    }
+    .col-span {
+        display: grid;//n
+        grid-column: 1/-1!important;//n
+    }
 
 }
